@@ -1,0 +1,48 @@
+@import "./variable.scss";
+
+.header{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    @media (max-width: 768px) {
+        padding: 20px 20px; 
+    }
+    &__logo{
+        @include title-banner;
+        text-decoration: none;
+        color: $primary-color;
+    }
+    &__link {
+        margin-left: 40px;
+        text-decoration: none;
+        color: $primary-color;
+        @include link-banner;
+        @media (max-width: 768px) {
+            margin-left: 20px;
+        }
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 10px;
+        }
+    }
+    &__active--link {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+    &__link_resume {
+        margin-left: 40px;
+        padding: 7px 30px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 30px; 
+        background-color: $primary-color;
+        @include link-banner;
+        @media (max-width: 768px) {
+            margin-left: 20px;
+        }
+    }
+}

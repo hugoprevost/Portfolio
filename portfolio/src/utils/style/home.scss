@@ -1,0 +1,30 @@
+@import "./variable.scss";
+
+.home_presentation{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  &_texte{
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    & h1{
+      padding-bottom: 30px;
+      line-height: 50px;
+      @include title-profile-titre;
+      color: $primary-color;
+    }
+    & p{
+        @include title-profile-texte;
+        color: $color-black;
+    }
+  } 
+  &_img{
+    width: 35%;
+    flex-direction: column;
+    align-content: center;
+    & img{
+        width: 100%;
+    }
+    }
+}

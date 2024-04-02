@@ -1,33 +1,18 @@
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import { StyledLink } from '../../utils/style/Atoms'
-import DarkLogo from '../../assets/dark-logo.png'
+import { Link, NavLink } from 'react-router-dom'
+import '../../utils/style/header.scss'
 
-const HomeLogo = styled.img`
-  height: 70px;
-`
 
-const NavContainer = styled.nav`
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`
 
 function Header() {
   return (
-    <NavContainer>
-      <Link to="/">
-        <HomeLogo src={DarkLogo} />
-      </Link>
+    <nav className='header'>
+      <Link to="/" className='header__logo'>Prevost Hugo</Link>
       <div>
-        <StyledLink to="/">Accueil</StyledLink>
-        <StyledLink to="/freelances">Profils</StyledLink>
-        <StyledLink to="/survey/1" $isFullLink>
-          Faire le test
-        </StyledLink>
+        <NavLink className={({isActive}) => {return isActive ? " header__link header__active--link" : "header__link"}} to="/">Projets</NavLink>
+        <NavLink className={({isActive}) => {return isActive ? " header__link header__active--link" : "header__link"}} to="/">Contact</NavLink>
+        <NavLink className='header__link_resume' to="/">Résumé</NavLink>
       </div>
-    </NavContainer>
+    </nav>
   )
 }
 

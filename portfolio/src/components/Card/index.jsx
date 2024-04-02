@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../../utils/style/colors'
-import DefaultPicture from '../../assets/profile.png'
+//import DefaultPicture from '../../assets/profile.png'
 
 const CardLabel = styled.span`
   color: #5843e4;
@@ -44,7 +44,7 @@ function Card({ label, title, picture }) {
   return (
     <CardWrapper>
       <CardLabel>{label}</CardLabel>
-      <CardImage src={picture} alt="freelance" />
+     {/* <CardImage src={picture} alt="freelance" /> */}
       <CardTitle>{title}</CardTitle>
     </CardWrapper>
   )
@@ -59,7 +59,7 @@ Card.propTypes = {
 Card.defaultProps = {
   label: '',
   title: '',
-  picture: DefaultPicture,
+  // picture: DefaultPicture,
 }
 
 export default Card

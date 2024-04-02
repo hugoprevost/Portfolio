@@ -6,6 +6,7 @@ import Survey from './pages/Survey'
 import Results from './pages/Results'
 import Freelances from './pages/Freelances'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Error from './components/Error'
 import { createGlobalStyle } from 'styled-components'
 
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route path="/freelances" element={<Freelances />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer/>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
