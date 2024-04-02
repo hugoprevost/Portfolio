@@ -1,0 +1,30 @@
+@import "./variable.scss";
+
+.card__logement{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 50px 100px 0px 100px;
+    border-radius: 25px;
+    @media (max-width: 768px) {
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+        background-color: $color-white;
+    }
+    &__article{
+        width: 22%;
+        height: 340px;
+        bottom: 0;
+        color: $color-white;
+        font-size: 20px;
+        font-weight:700;
+        text-decoration: none;
+        padding-bottom: 50px;
+        @media (max-width: 995px) {
+            width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+        }
+    }
+}
