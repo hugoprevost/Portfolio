@@ -1,6 +1,6 @@
 import coverUx from '../assets/projet-1/mockup.jpg'
-import coverDeveloppement from '../assets/projet-2/mockup.png'
-import coverAR from '../assets/projet-3/mockup.jpg'
+import coverDeveloppement from '../assets/projet-2/mockup.jpg'
+import coverAR from '../assets/projet-2/mockup.jpg'
 import coverGame from '../assets/projet-4/mockup.png'
 
 export const thematique = [

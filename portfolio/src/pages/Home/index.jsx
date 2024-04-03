@@ -1,6 +1,7 @@
 import HomeIllustration from '../../assets/profil.png'
 import '../../utils/style/home.scss'
 import Thematique from '../../components/Thematique'
+import LastProjet from '../../components/LastProjet'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
           <img src={HomeIllustration} alt="Profile Hugo Prevost" />
         </div>
       </div>
+      <LastProjet/>
       <Thematique/>
     </div>
   )

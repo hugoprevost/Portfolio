@@ -1,0 +1,54 @@
+@import "./variable.scss";
+
+.card__lastprojet{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 100px;
+    border-radius: 25px;
+    @media (max-width: 768px) {
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+        background-color: $color-white;
+    }
+    &__article{
+        width: 30%;
+        color: $color-white;
+        text-decoration: none;
+        @media (max-width: 995px) {
+            width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.sous-titre-lastprojet{
+    color: white;
+    @include h2;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    text-decoration-color:$secondary-color;
+    padding-bottom: 20px;
+}
+
+.lastprojet{
+    background-color: $primary-color;
+    padding: 20px 0px;
+}
+
+.link-projet{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}

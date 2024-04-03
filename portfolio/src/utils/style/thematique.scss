@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 50px 100px 0px 100px;
+    padding: 0px 100px ;
     border-radius: 25px;
     @media (max-width: 768px) {
         justify-content: space-between;
@@ -20,11 +20,22 @@
         font-size: 20px;
         font-weight:700;
         text-decoration: none;
-        padding-bottom: 50px;
         @media (max-width: 995px) {
             width: 100%;
             height: auto;
             padding-bottom: 10px;
         }
     }
+}
+
+.sous-titre{
+    color: $primary-color;
+    @include h2;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    text-decoration-color:$secondary-color;
+    padding-bottom: 20px;
+    //border-bottom: 1rem solid $secondary-color;
 }

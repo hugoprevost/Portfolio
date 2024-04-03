@@ -1,0 +1,32 @@
+@import "./variable.scss";
+
+.card__projet {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  background-color: white;
+  text-decoration: none;
+  &__img {
+    width: 100%;
+    object-fit:cover;
+    border-radius: 10px 10px 0px 0px; 
+  }
+  &__title {
+    color: $primary-color;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+  }
+  &__subtitle {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 0px 15px 15px 15px;
+    text-decoration: none;
+  }
+}
