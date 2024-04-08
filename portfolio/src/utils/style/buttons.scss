@@ -5,7 +5,8 @@
     margin: 20px 0px;
 }
 
-.bouton__tous{
+
+.bouton__active{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -16,9 +17,10 @@
     background-color: $primary-color;
     border-radius: 30px;
     border-color: #FFFFFF;
+    margin-right: 15px;
 }
 
-.bouton__categorie{
+.bouton__none{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -29,13 +31,8 @@
     background-color: #ffffff;
     border-radius: 30px;
     border-color: $primary-color;
-    margin: 0px 10px;
+    margin-right: 15px;
     &:hover {
-        border-color: #FFFFFF;
-        color: #FFFFFF;
-        background-color: $primary-color;
-    }
-    &:active{
         border-color: #FFFFFF;
         color: #FFFFFF;
         background-color: $primary-color;

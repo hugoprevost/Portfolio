@@ -1,0 +1,20 @@
+@import "./variable.scss";
+
+.tag__title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: $primary-color;
+    border-radius: 30px;
+    padding: 5px 20px;
+    
+}
+
+
+
+.tag{
+    justify-content: flex-start;
+    padding-right: 20px;
+}

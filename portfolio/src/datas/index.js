@@ -5,22 +5,22 @@ import coverGame from '../assets/projet-4/mockup.png'
 
 export const thematique = [
 	{
-		id: 'projet-1',
+		id: 'ux-ui',
 		title: 'UX-UI',
 		cover: coverUx
 	},
 	{
-		id: 'projet-2',
+		id: 'developpement',
 		title: 'Developpement',
 		cover: coverDeveloppement
 	},
 	{
-		id: 'projet-3',
+		id: '3d-ar',
 		title: '3D / AR',
 		cover: coverAR
 	},
 	{
-		id: 'projet-4',
+		id: 'game',
 		title: 'Game',
 		cover: coverGame
 	}

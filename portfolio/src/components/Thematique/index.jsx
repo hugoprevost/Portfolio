@@ -14,7 +14,7 @@ const Thematique = () => {
         {thematique.map((logement) => {
             return (
             <article className="card__logement__article" key={logement.id}>
-                <Link to={`/products/${logement.id}`}>
+                <Link to={`/projets/${logement.id}`}>
                 <Card image={logement.cover} title={logement.title} />
                 </Link>
             </article>

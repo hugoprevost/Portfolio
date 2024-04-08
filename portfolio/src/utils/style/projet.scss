@@ -1,0 +1,28 @@
+@import "./variable.scss";
+
+.projet{
+    padding: 0px 100px;
+}
+
+.tags__groupe{
+    display: flex;
+}
+
+.projet__titre{
+    font-family: "Galada", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    color: $primary-color;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.projet__texte{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+}

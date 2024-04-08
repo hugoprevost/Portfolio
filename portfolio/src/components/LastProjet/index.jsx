@@ -15,7 +15,7 @@ const LastProjet = () => {
           {lastProjet.map((projet) => {
               return (
               <article className="card__lastprojet__article" key={projet.id}>
-                  <Link to={`/products/${projet.id}`}>
+                  <Link to={`/projets/${projet.id}`}>
                   <CardProjet image={projet.cover} title={projet.title} subtitle={projet.subtitle} />
                   </Link>
               </article>
