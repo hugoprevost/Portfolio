@@ -1,6 +1,6 @@
-import coverUx from '../assets/projet-1/mockup.jpg'
-import coverDeveloppement from '../assets/projet-2/mockup.jpg'
-import coverAR from '../assets/projet-2/mockup.jpg'
+import coverUx from '../assets/projet-1/cover.jpg'
+import coverDeveloppement from '../assets/projet-2/cover.jpg'
+import coverAR from '../assets/projet-2/cover.jpg'
 
 export const lastProjet = [
 	{

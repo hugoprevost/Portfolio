@@ -1,0 +1,54 @@
+@import "./variable.scss";
+
+.card__lastprojet2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 100px;
+    border-radius: 25px;
+    @media (max-width: 768px) {
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px 20px 0px 20px;
+        background-color: $color-white;
+    }
+    &__article2{
+        width: 30%;
+        color: $color-white;
+        text-decoration: none;
+        @media (max-width: 995px) {
+            width: 100%;
+            height: auto;
+            padding-bottom: 10px;
+        }
+        & a{
+            text-decoration: none;
+        }
+    }
+}
+
+.sous-titre-lastprojet2{
+    color: white;
+    @include h2;
+    text-align: left; 
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.lastprojet2{
+    background: linear-gradient(#768AC4, #3A55A1);
+    padding: 20px 0px;
+}
+
+.link-projet{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}

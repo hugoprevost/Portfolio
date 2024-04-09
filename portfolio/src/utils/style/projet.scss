@@ -15,7 +15,7 @@
     font-size: 50px;
     color: $primary-color;
     padding: 0px;
-    line-height: 30px;
+    line-height: 0px;
 }
 
 .projet__texte{
@@ -25,4 +25,31 @@
     font-size: 20px;
     color: #000000;
     padding: 0px;
+}
+
+.gui{
+    padding: 50px 0px;
+}
+
+.img__groupe{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.img__solo{
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.mockup__groupe{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.mockup__solo{
+    width: 48%;
+    object-fit: cover;
 }
