@@ -26,8 +26,8 @@ function Projet() {
         <>
             <div>
                 <div>
-                    <div className="">
-                        <img src={cover} alt={title} className="card__projet__img"/>
+                    <div className="projet__cover">
+                        <img src={cover} alt={title} className="projet__cover__img"/>
                     </div>
                     <div className="projet">
                         <div className="tags__groupe">
@@ -40,7 +40,7 @@ function Projet() {
                             <p className="projet__texte">{texte}</p>
                         </div>
                         <div className="gui">
-                            <img src={gui} alt={title} className="card__projet__img"/>
+                            <img src={gui} alt={title} className="projet__gui__img"/>
                         </div>
                         <div className="img__groupe">
                             {imgs.map((img, index)=>(
