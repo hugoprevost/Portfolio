@@ -1,7 +1,4 @@
-import coverUx from '../assets/projet-1/cover.jpg'
-import coverDeveloppement from '../assets/projet-2/cover.jpg'
-import coverAR from '../assets/projet-2/cover.jpg'
-
+import coverProjet1 from '../assets/projet-1/cover.jpg'
 import guiProjet1 from '../assets/projet-1/gui.jpg'
 import img1Projet1 from "../assets/projet-1/ecran1.jpg"
 import img2Projet1 from "../assets/projet-1/ecran2.jpg"
@@ -12,6 +9,7 @@ import img6Projet1 from "../assets/projet-1/ecran6.jpg"
 import mockup1Projet1 from "../assets/projet-1/mockup1.jpg"
 import mockup2Projet1 from "../assets/projet-1/mockup2.jpg"
 
+import coverProjet2 from '../assets/projet-2/cover.jpg'
 import img1Projet2 from "../assets/projet-2/ecran1.jpg"
 import img2Projet2 from "../assets/projet-2/ecran2.jpg"
 import img3Projet2 from "../assets/projet-2/ecran3.jpg"
@@ -70,11 +68,40 @@ import img6Projet7 from "../assets/projet-7/ecran6.jpg"
 import mockup1Projet7 from "../assets/projet-7/mockup1.jpg"
 import mockup2Projet7 from "../assets/projet-7/mockup2.jpg"
 
+import coverProjet8 from '../assets/projet-8/cover.jpg'
+import guiProjet8 from '../assets/projet-8/gui.jpg'
+import img1Projet8 from "../assets/projet-8/ecran1.jpg"
+import img2Projet8 from "../assets/projet-8/ecran2.jpg"
+import img3Projet8 from "../assets/projet-8/ecran3.jpg"
+import img4Projet8 from "../assets/projet-8/ecran4.jpg"
+import mockup1Projet8 from "../assets/projet-8/mockup1.jpg"
+import mockup2Projet8 from "../assets/projet-8/mockup2.jpg"
+
+import coverProjet9 from '../assets/projet-9/cover.jpg'
+import guiProjet9 from '../assets/projet-9/gui.jpg'
+import img1Projet9 from "../assets/projet-9/ecran1.jpg"
+import img2Projet9 from "../assets/projet-9/ecran2.jpg"
+import img3Projet9 from "../assets/projet-9/ecran3.jpg"
+import img4Projet9 from "../assets/projet-9/ecran4.jpg"
+import mockup1Projet9 from "../assets/projet-9/mockup1.jpg"
+import mockup2Projet9 from "../assets/projet-9/mockup2.jpg"
+
+import coverProjet10 from '../assets/projet-10/cover.jpg'
+import guiProjet10 from '../assets/projet-10/gui.jpg'
+import img1Projet10 from "../assets/projet-10/ecran1.jpg"
+import img2Projet10 from "../assets/projet-10/ecran2.jpg"
+import img3Projet10 from "../assets/projet-10/ecran3.jpg"
+import img4Projet10 from "../assets/projet-10/ecran4.jpg"
+import img5Projet10 from "../assets/projet-10/ecran5.jpg"
+import img6Projet10 from "../assets/projet-10/ecran6.jpg"
+import mockup1Projet10 from "../assets/projet-10/mockup1.jpg"
+import mockup2Projet10 from "../assets/projet-10/mockup2.jpg"
+
 export const projetInfos = [
 	{
 		id: 'projet-1',
 		title: 'Draft',
-		cover: coverUx,
+		cover: coverProjet1,
 		category: "UX / UI",
         subtitle: "Améliorer et anticiper la charge mentale et émotionnelle des proches d'un mort. Création d'une application sur la préparation des obsèques et de la cérémonie d'un proche. La personne avant sa mort pourra choisir les différentes personnes qui feront un discours, les différents thèmes à aborder pour lui rendre hommage, les différentes musiques présentes lors de la cérémonie, le déjeuner et aussi préparer et anticiper ...",
 		texte:"Améliorer et anticiper la charge mentale et émotionnelle des proches d'un mort. Création d'une application sur la préparation des obsèques et de la cérémonie d'un proche. La personne avant sa mort pourra choisir les différentes personnes qui feront un discours, les différents thèmes à aborder pour lui rendre hommage, les différentes musiques présentes lors de la cérémonie, le déjeuner et aussi préparer et anticiper la gestion des différents documents pour des questions d'héritage et des différents frais à prévoir. Draft permet d'accompagner ses proches jusqu'au dernier instant de sa vie.",
@@ -101,7 +128,7 @@ export const projetInfos = [
 		id: 'projet-2',
 		title: 'Marée Loire',
         subtitle: "Située dans les cales des anciens chantiers navals de Nantes. Marée Loire est une installation expérimentale visant à réhabiliter la biodiversité dans les cales de la Loire. Lors de l’installation de la structure, des graines et des différents nutriments essentiels aux oiseaux seront distribués pour permettre à tous de participer au développement de l’écosystème. Une fois achevé, l’installation sera hors de portée des usagers...",
-		cover: coverDeveloppement,
+		cover: coverProjet2,
 		category: "3D / AR",
 		texte:"Située dans les cales des anciens chantiers navals de Nantes. Marée Loire est une installation expérimentale visant à réhabiliter la biodiversité dans les cales de la Loire. Lors de l’installation de la structure, des graines et des différents nutriments essentiels aux oiseaux seront distribués pour permettre à tous de participer au développement de l’écosystème. Une fois achevé, l’installation sera hors de portée des usagers pour permettre à la biodiversité de s’installer. Sans interférer, regardons la nature reprendre ses droits !",
 		tags: [
@@ -248,6 +275,82 @@ export const projetInfos = [
 		mockups: [
 			mockup1Projet7,
 			mockup2Projet7
+		]
+	},
+	{
+		id: 'projet-8',
+		title: 'Booki',
+        subtitle: "Ce travail a été réalisé pour le projet 2 de la formation Développeur Web d'OpenClassrooms. Booki est une petite entreprise qui propose à ses utilisateurs de planifier leurs vacances en trouvant un hébergement et des activités sur leur ville de destination. Les utuilisateurs pourront également utiliser des filtres pour visionner les résultats selon une thématique choisie. Ce prototype a été créé en utilisant HMTL5 et CSS3 ...",
+		cover: coverProjet8,
+		category: "Développement",
+		texte:"Ce travail a été réalisé pour le projet 2 de la formation Développeur Web d'OpenClassrooms. Booki est une petite entreprise qui propose à ses utilisateurs de planifier leurs vacances en trouvant un hébergement et des activités sur leur ville de destination. Les utuilisateurs pourront également utiliser des filtres pour visionner les résultats selon une thématique choisie. Ce prototype a été créé en utilisant HMTL5 et CSS3.",
+		tags: [
+			"Développement",
+			"HTML5",
+			"CSS"
+		],
+		gui: guiProjet8,
+		imgs: [
+			img1Projet8,
+			img2Projet8,
+			img3Projet8,
+			img4Projet8,
+		],
+		mockups: [
+			mockup1Projet8,
+			mockup2Projet8
+		]
+	},
+	{
+		id: 'projet-9',
+		title: 'Sophie Bluel',
+        subtitle: "Ce travail a été réalisé pour le projet 3 de la formation Développeur Web d'OpenClassrooms. Réalisation du projet Sophie Bluel, un site web permettant de présenter les projets réalisé par l’architecte Sophie Bluel, de la création d’objet à la décoration d’appartement. Pendant le projet, il fallait, catégoriser et filtrer les projets, une page de connexion permettant l’édition et La possibilité à l’administrateur d’ajouter ...",
+		cover: coverProjet9,
+		category: "Développement",
+		texte:"Ce travail a été réalisé pour le projet 3 de la formation Développeur Web d'OpenClassrooms. Réalisation du projet Sophie Bluel, un site web permettant de présenter les projets réalisé par l’architecte Sophie Bluel, de la création d’objet à la décoration d’appartement. Pendant le projet, il fallait, catégoriser et filtrer les projets, une page de connexion permettant l’édition et La possibilité à l’administrateur d’ajouter et de supprimer des projets.",
+		tags: [
+			"Développement",
+			"HTML5",
+			"CSS",
+			"JavaScript"
+		],
+		gui: guiProjet9,
+		imgs: [
+			img1Projet9,
+			img2Projet9,
+			img3Projet9,
+			img4Projet9,
+		],
+		mockups: [
+			mockup1Projet9,
+			mockup2Projet9
+		]
+	},
+	{
+		id: 'projet-10',
+		title: 'Kasa',
+        subtitle: "Ce travail a été réalisé pour le projet 6 de la formation Développeur Web d'OpenClassrooms. Le projet Kasa, un site web en REACT permettant de présenter les différents biens mis en location. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Pendant le projet, il fallait	Création du site en REACT avec les différentes pages, une page à propose qui contient ...",
+		cover: coverProjet10,
+		category: "Développement",
+		texte:"Ce travail a été réalisé pour le projet 6 de la formation Développeur Web d'OpenClassrooms. Le projet Kasa, un site web en REACT permettant de présenter les différents biens mis en location. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Pendant le projet, il fallait	Création du site en REACT avec les différentes pages, une page à propose qui contient des collapses et une page appartement pour chaque bien avec la possibilité de naviguer entre les différentes photos de présentation et des collapses pour la description des biens.",
+		tags: [
+			"Développement",
+			"React",
+			"SCSS",
+			"JavaScript"
+		],
+		gui: guiProjet10,
+		imgs: [
+			img1Projet10,
+			img2Projet10,
+			img3Projet10,
+			img4Projet10,
+			img5Projet10,
+			img6Projet10,
+		],
+		mockups: [
+			mockup1Projet10,
+			mockup2Projet10
 		]
 	}
 ]
