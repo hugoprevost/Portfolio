@@ -13,6 +13,7 @@ import Cv from './pages/Cv'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Error from './components/Error'
+import './utils/style/index.css'
 
 
 ReactDOM.render(

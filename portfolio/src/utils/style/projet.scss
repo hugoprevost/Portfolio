@@ -2,17 +2,24 @@
 
 .projet{
     padding: 0px 100px;
+    @media (max-width: 768px) {
+        padding: 0px 20px;
+    }
 }
 
 .projet__cover{
     width: 100%;
     height: auto;
+    
 }
 
 .projet__cover__img{
     width: 100%;
     height: 500px;
     object-fit: cover;
+    @media (max-width: 768px) {
+        height: 300px;
+    }
 }
 
 .groupe__tags__github{
@@ -20,10 +27,17 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 60px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .tags__groupe{
     display: flex;
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -85,11 +99,17 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .img__solo{
     width: 48%;
     margin-bottom: 20px;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .mockup__groupe{
@@ -97,9 +117,16 @@
     flex-flow: row wrap;
     justify-content: space-between;
     margin-bottom: 50px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .mockup__solo{
     width: 48%;
     object-fit: cover;
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
