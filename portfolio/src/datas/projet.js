@@ -299,7 +299,8 @@ export const projetInfos = [
 		mockups: [
 			mockup1Projet8,
 			mockup2Projet8
-		]
+		],
+		github:'https://github.com/hugoprevost/projet-booki'
 	},
 	{
 		id: 'projet-9',
@@ -324,7 +325,8 @@ export const projetInfos = [
 		mockups: [
 			mockup1Projet9,
 			mockup2Projet9
-		]
+		],
+		github:'https://github.com/hugoprevost/projet-sophie-bluel'
 	},
 	{
 		id: 'projet-10',
@@ -351,7 +353,8 @@ export const projetInfos = [
 		mockups: [
 			mockup1Projet10,
 			mockup2Projet10
-		]
+		],
+		github:'https://github.com/hugoprevost/kasa'
 	}
 ]
 export default projetInfos;

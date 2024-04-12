@@ -4,15 +4,25 @@
   display: flex;
   justify-content: space-between;
   padding: 60px 100px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   &_texte{
     flex-direction: column;
     align-content: center;
     width: 50%;
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
     & h1{
       padding-bottom: 30px;
       line-height: 50px;
       @include title-profile-titre;
       color: $primary-color;
+      @media (max-width: 768px) {
+        padding-bottom: 0px;
+      }
     }
     & p{
         @include title-profile-texte;
@@ -23,6 +33,9 @@
     width: 35%;
     flex-direction: column;
     align-content: center;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
     & img{
         width: 100%;
     }

@@ -1,0 +1,54 @@
+@import "./variable.scss";
+
+.contact_presentation{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  &_texte{
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    & h1{
+      line-height: 50px;
+      @include title-profile-titre;
+      color: $primary-color;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+  } 
+  &_img{
+    width: 35%;
+    flex-direction: column;
+    align-content: center;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    & img{
+        width: 100%;
+    }
+    }
+}
+
+.contact__bloc{
+  display: flex;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.contact__img{
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+

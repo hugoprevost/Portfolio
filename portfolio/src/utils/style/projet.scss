@@ -15,8 +15,41 @@
     object-fit: cover;
 }
 
+.groupe__tags__github{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
 .tags__groupe{
     display: flex;
+    
+}
+
+.github__bloc{
+    background-color: $primary-color;
+    border-radius: 30px;
+    display: flex;
+    width: auto;
+    padding: 5px 20px;
+}
+.github__texte{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.lien__git{
+    text-decoration: none;
+}
+
+.github__logo{
+    padding: 0px 20px 0px 0px;
 }
 
 .projet__titre{
@@ -27,6 +60,7 @@
     color: $primary-color;
     padding: 0px;
     line-height: 0px;
+    
 }
 
 .projet__texte{

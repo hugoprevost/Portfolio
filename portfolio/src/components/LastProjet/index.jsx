@@ -22,7 +22,6 @@ const LastProjet = () => {
               );
           })}
           </div>
-          <Link to={`/products/`} className="link-projet"> Voir tous les projets </Link>
       </div>
     </div>
   );

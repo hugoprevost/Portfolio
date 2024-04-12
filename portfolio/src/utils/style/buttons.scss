@@ -3,6 +3,17 @@
 .boutons{
     padding: 0px 100px;
     margin: 20px 0px;
+    @media (max-width: 768px) {
+        padding: 0px 20px;
+    }
+}
+
+.boutons__block{
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -18,6 +29,17 @@
     border-radius: 30px;
     border-color: #FFFFFF;
     margin-right: 15px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+        padding: 0px;
+        color: $primary-color;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        border-color: #FFFFFF;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
 }
 
 .bouton__none{
@@ -32,9 +54,34 @@
     border-radius: 30px;
     border-color: $primary-color;
     margin-right: 15px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+        padding: 0px;
+        color: $primary-color;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        border-color: #FFFFFF;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
     &:hover {
         border-color: #FFFFFF;
         color: #FFFFFF;
         background-color: $primary-color;
+    }
+}
+
+.sous-titre-navigation{
+    color: $primary-color;
+    @include h2;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    text-decoration-color:$secondary-color;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    @media (max-width: 768px) {
+        padding-left: 20px;
     }
 }
