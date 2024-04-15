@@ -6,7 +6,7 @@ import Github from '../../assets/github.svg'
 
 function Footer() {
     return (
-        <nav className='footer__nav'>
+        <nav className='footer'>
           <Link to="https://www.linkedin.com/in/hugo-prevost-01878a105/" target="_blank">
             <img className='footer__logo' src={Linkedin} alt='Logo Linkedin' />
           </Link>

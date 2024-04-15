@@ -9,11 +9,11 @@ import AR from './pages/AR'
 import Game from './pages/Game'
 import Projet from './pages/Projet'
 import Contact from './pages/Contact'
-import Cv from './pages/Cv'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Error from './components/Error'
 import './utils/style/index.css'
+
 
 
 ReactDOM.render(
@@ -29,7 +29,6 @@ ReactDOM.render(
         <Route path="/projets/game" element={<Game />} />
         <Route path="/projets/:id" element={<Projet />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Cv />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>

@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import '../../utils/style/header.scss'
+import CV from "../../assets/CV-Hugo-Prevost-2023.pdf"
 
 
 
@@ -10,7 +11,7 @@ function Header() {
       <div>
         <NavLink className={({isActive}) => {return isActive ? " header__link header__active--link" : "header__link"}} to="/projets/tous">Projets</NavLink>
         <NavLink className={({isActive}) => {return isActive ? " header__link header__active--link" : "header__link"}} to="/contact">Contact</NavLink>
-        <NavLink className='header__link_resume' to="/resume">Résumé</NavLink>
+        <a className='header__link_resume' href={CV}  rel='noreferrer' target='_blank'>Résumé</a>
       </div>
     </nav>
   )

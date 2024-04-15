@@ -1,28 +1,19 @@
 @import "./variable.scss";
 
-.erreur__bloc{
+.erreur{
     margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.erreur__titre{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 45px;
-    color: $primary-color;
-}
-
-.erreur__soustitre{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 30px;
-    color: $primary-color;
-}
-
-.erreur__img{
-    max-width: 800px;
+    &__titre{
+        @include erreur__titre;
+        color: $primary-color;
+    }
+    &__soustitre{
+        @include erreur__soustitre;
+        color: $primary-color;
+    }
+    &__img{
+        max-width: 800px;
+    }
 }

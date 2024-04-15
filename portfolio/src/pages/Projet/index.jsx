@@ -32,18 +32,18 @@ function Projet() {
                         <img src={cover} alt={title} className="projet__cover__img"/>
                     </div>
                     <div className="projet">
-                        <div className="groupe__tags__github">
-                            <div className="tags__groupe">
+                        <div className="projet__tags">
+                            <div className="projet__tags__groupe">
                                 {tags.map((tag, index) => (
                                     <Tags key={index} projettag={tag} />
                                 ))}
                             </div>
                             {github && 
                             <div >
-                                <Link to={github} target="_blank" className="lien__git">
-                                    <div className="github__bloc">
-                                        <img className='github__logo' src={GithubBlanc} alt='Logo Github' />
-                                        <p className="github__texte">Lien vers Github</p>
+                                <Link to={github} target="_blank" className="projet__tags__git">
+                                    <div className="projet__tags__git__bloc">
+                                        <img className='projet__tags__git__bloc__logo' src={GithubBlanc} alt='Logo Github' />
+                                        <p className="projet__tags__git__bloc__texte">Lien vers Github</p>
                                     </div>
                                     
                                 </Link>
@@ -55,18 +55,18 @@ function Projet() {
                             <p className="projet__texte">{texte}</p>
                         </div>
                         {gui && 
-                            <div className="gui">
+                            <div className="projet__gui">
                                 <img src={gui} alt={title} className="projet__gui__img"/>
                             </div>
                         }
-                        <div className="img__groupe">
+                        <div className="projet__img">
                             {imgs.map((img, index)=>(
-                                <img key={index} src={img} alt={title} className="img__solo"/>
+                                <img key={index} src={img} alt={title} className="projet__img__solo"/>
                             ))}
                         </div>
-                        <div className="mockup__groupe">
+                        <div className="projet__mockup">
                             {mockups.map((mockup, index)=>(
-                                <img key={index} src={mockup} alt={title} className="mockup__solo"/>
+                                <img key={index} src={mockup} alt={title} className="projet__mockup__solo"/>
                             ))}
                         </div>
                         

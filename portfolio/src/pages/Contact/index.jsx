@@ -1,4 +1,4 @@
-import HomeIllustration from '../../assets/profil.png'
+import HomeIllustration from '../../assets/profil.jpg'
 import Mail from '../../assets/mail.svg'
 import Tel from '../../assets/tel.svg'
 import '../../utils/style/contact.scss'

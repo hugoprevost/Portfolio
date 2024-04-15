@@ -5,128 +5,101 @@
     @media (max-width: 768px) {
         padding: 0px 20px;
     }
-}
-
-.projet__cover{
-    width: 100%;
-    height: auto;
-    
-}
-
-.projet__cover__img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    @media (max-width: 768px) {
-        height: 300px;
-    }
-}
-
-.groupe__tags__github{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    @media (max-width: 768px) {
-        flex-direction: column;
-    }
-}
-
-.tags__groupe{
-    display: flex;
-    @media (max-width: 768px) {
-        margin-bottom: 20px;
-        flex-wrap: wrap;
-    }
-    
-}
-
-.github__bloc{
-    background-color: $primary-color;
-    border-radius: 30px;
-    display: flex;
-    width: auto;
-    padding: 5px 20px;
-}
-.github__texte{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    color: #FFFFFF;
-    margin: 0px;
-}
-
-.lien__git{
-    text-decoration: none;
-}
-
-.github__logo{
-    padding: 0px 20px 0px 0px;
-}
-
-.projet__titre{
-    font-family: "Galada", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 50px;
-    color: $primary-color;
-    padding: 0px;
-    line-height: 0px;
-    
-}
-
-.projet__texte{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color: #000000;
-    padding: 0px;
-}
-
-.gui{
-    padding: 50px 0px;
-}
-
-.projet__gui__img{
-    width: 100%;
-    height: auto;
-}
-
-.img__groupe{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    @media (max-width: 768px) {
-        flex-direction: column;
-    }
-}
-
-.img__solo{
-    width: 48%;
-    margin-bottom: 20px;
-    @media (max-width: 768px) {
+    &__cover{
         width: 100%;
+        height: auto;
+        &__img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            @media (max-width: 768px) {
+                height: 300px;
+            }
+        }    
     }
-}
-
-.mockup__groupe{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    @media (max-width: 768px) {
-        flex-direction: column;
+    &__tags{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        &__groupe{
+            display: flex;
+            @media (max-width: 768px) {
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+            }
+        }
+        &__git{
+            text-decoration: none;
+            &__bloc{
+                background-color: $primary-color;
+                border-radius: 30px;
+                display: flex;
+                width: auto;
+                padding: 5px 20px;
+                &__texte{
+                    text-decoration: none;
+                    @include projet__git;
+                    color: #FFFFFF;
+                    margin: 0px;
+                }
+                &__logo{
+                    padding: 0px 20px 0px 0px;
+                }
+            }
+        }
     }
-}
-
-.mockup__solo{
-    width: 48%;
-    object-fit: cover;
-    @media (max-width: 768px) {
-        width: 100%;
-        margin-bottom: 20px;
+    &__titre{
+        @include projet__titre;
+        color: $primary-color;
+        padding: 0px;
+        line-height: 0px;
+    }
+    &__texte{
+        @include projet__texte;
+        color: #000000;
+        padding: 0px;
+    }
+    &__gui{
+        padding: 50px 0px;
+        &__img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__img{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        &__solo{
+            width: 48%;
+            margin-bottom: 20px;
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+        }
+    }
+    &__mockup{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        &__solo{
+            width: 48%;
+            object-fit: cover;
+            @media (max-width: 768px) {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
     }
 }

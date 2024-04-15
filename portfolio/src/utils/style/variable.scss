@@ -63,3 +63,112 @@ $color-black: #000000;
     }
 }
 
+@mixin bouton__active {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+@mixin bouton__none {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+@mixin card {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+@mixin card__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+@mixin card__subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+@mixin erreur__titre {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+@mixin erreur__soustitre {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
+}
+
+@mixin projet__titre {
+    font-family: "Galada", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    @media (max-width: 768px) {
+        font-size: 45px;
+    }
+}
+
+@mixin projet__texte {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+@mixin projet__git {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+@mixin projet__tag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}

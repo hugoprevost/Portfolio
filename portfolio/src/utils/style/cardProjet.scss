@@ -14,19 +14,13 @@
   }
   &__title {
     color: $primary-color;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 22px;
+    @include card__title;
     text-align: center;
     text-decoration: none;
   }
   &__subtitle {
     color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
+    @include card__subtitle;
     padding: 0px 15px 15px 15px;
     text-decoration: none;
   }

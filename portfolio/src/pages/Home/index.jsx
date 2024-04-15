@@ -1,4 +1,4 @@
-import HomeIllustration from '../../assets/profil.png'
+import HomeIllustration from '../../assets/profil.jpg'
 import '../../utils/style/home.scss'
 import Thematique from '../../components/Thematique'
 import LastProjet from '../../components/LastProjet'

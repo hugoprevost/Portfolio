@@ -6,68 +6,54 @@
     @media (max-width: 768px) {
         padding: 0px 20px;
     }
-}
-
-.boutons__block{
-    @media (max-width: 768px) {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    &_block{
+        @media (max-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
     }
-}
-
-
-.bouton__active{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    padding: 5px 20px;
-    color: #FFFFFF;
-    background-color: $primary-color;
-    border-radius: 30px;
-    border-color: #FFFFFF;
-    margin-right: 15px;
-    @media (max-width: 768px) {
-        font-size: 18px;
-        padding: 0px;
-        color: $primary-color;
-        background-color: #FFFFFF;
-        border-radius: 0px;
-        border-color: #FFFFFF;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    
-}
-
-.bouton__none{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    padding: 5px 20px;
-    color: $primary-color;
-    background-color: #ffffff;
-    border-radius: 30px;
-    border-color: $primary-color;
-    margin-right: 15px;
-    @media (max-width: 768px) {
-        font-size: 18px;
-        padding: 0px;
-        color: $primary-color;
-        background-color: #FFFFFF;
-        border-radius: 0px;
-        border-color: #FFFFFF;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    &:hover {
-        border-color: #FFFFFF;
+    &__active{
+        text-decoration: none;
+        @include bouton__active;
+        padding: 5px 20px;
         color: #FFFFFF;
         background-color: $primary-color;
+        border-radius: 30px;
+        border-color: #FFFFFF;
+        margin-right: 15px;
+        @media (max-width: 768px) {
+            padding: 0px;
+            color: $primary-color;
+            background-color: #FFFFFF;
+            border-radius: 0px;
+            border-color: #FFFFFF;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    &__none{
+        text-decoration: none;
+        @include bouton__none;
+        padding: 5px 20px;
+        color: $primary-color;
+        background-color: #ffffff;
+        border-radius: 30px;
+        border-color: $primary-color;
+        margin-right: 15px;
+        @media (max-width: 768px) {
+            padding: 0px;
+            color: $primary-color;
+            border-radius: 0px;
+            border-color: #FFFFFF;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        &:hover {
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+            background-color: $primary-color;
+        }
     }
 }
 
