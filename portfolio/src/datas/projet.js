@@ -97,8 +97,48 @@ import img6Projet10 from "../assets/projet-10/ecran6.jpg"
 import mockup1Projet10 from "../assets/projet-10/mockup1.jpg"
 import mockup2Projet10 from "../assets/projet-10/mockup2.jpg"
 
+import coverProjet11 from '../assets/projet-11/cover.jpg'
+import guiProjet11 from '../assets/projet-11/gui.jpg'
+import img1Projet11 from "../assets/projet-11/ecran1.jpg"
+import img2Projet11 from "../assets/projet-11/ecran2.jpg"
+import img3Projet11 from "../assets/projet-11/ecran3.jpg"
+import img4Projet11 from "../assets/projet-11/ecran4.jpg"
+import img5Projet11 from "../assets/projet-11/ecran5.jpg"
+import img6Projet11 from "../assets/projet-11/ecran6.jpg"
+import mockup1Projet11 from "../assets/projet-11/mockup1.jpg"
+import mockup2Projet11 from "../assets/projet-11/mockup2.jpg"
+
 export const projetInfos = [
 	{
+		id: 'projet-11',
+		title: 'Robotics',
+		cover: coverProjet11,
+		category: "UX / UI",
+        subtitle: "Cette application permet de piloter facilement des robots mobiles autonomes (AMR) et des véhicules à guidage automatique (AGV) dans des environnements industriels ou logistiques. L’utilisateur peut lancer des missions prédéfinies, comme le transport de matériel, la livraison de composants ou des tâches d’inspection. L’application offre plusieurs modes de conduite : autonome, téléopéré ou manuel assisté, selon les besoins ...",
+		texte:"Cette application permet de piloter facilement des robots mobiles autonomes (AMR) et des véhicules à guidage automatique (AGV) dans des environnements industriels ou logistiques. L’utilisateur peut lancer des missions prédéfinies, comme le transport de matériel, la livraison de composants ou des tâches d’inspection. L’application offre plusieurs modes de conduite : autonome, téléopéré ou manuel assisté, selon les besoins opérationnels. Grâce à une interface claire et intuitive, il est possible de suivre la position du robot en temps réel, de surveiller son état, et de recevoir des notifications en cas d’anomalie. Pensée pour améliorer la flexibilité et la sécurité des opérations internes, cette solution s’intègre facilement aux processus existants et s’adapte aussi bien à un usage sur tablette que sur ordinateur.",
+		tags: [
+			"UX",
+			"UI",
+			"ReactJS",
+			"NodeJS",
+			"JavaScript",
+			"Application"
+		],
+		gui: guiProjet11,
+		imgs: [
+			img1Projet11,
+			img2Projet11,
+			img3Projet11,
+			img4Projet11,
+			img5Projet11,
+			img6Projet11,
+		],
+		mockups: [
+			mockup1Projet11,
+			mockup2Projet11
+		],
+		github:'https://github.com/hugoprevost/AMR-AGV-Robbotics'
+	},{
 		id: 'projet-1',
 		title: 'Draft',
 		cover: coverProjet1,

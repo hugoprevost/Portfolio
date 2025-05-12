@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 0px 100px ;
     border-radius: 25px;
+    background-color: white;
     @media (max-width: 768px) {
         justify-content: space-between;
         padding: 0px;
@@ -35,4 +36,5 @@
     text-decoration-thickness: 5px;
     text-decoration-color:$secondary-color;
     padding-bottom: 20px;
+    background-color: white;
 }

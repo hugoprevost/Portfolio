@@ -8,8 +8,8 @@ function Home() {
     <div>
       <div className='home_presentation'>
         <div className='home_presentation_texte'>
-          <h1>Prevost Hugo,<br></br> UX Designer et Developper</h1>
-          <p>Je viens de finir mon master Digital Design avec une alternance de deux ans au sein de l'entreprise Chausson Matériaux où je m'occupais du développement de la marque grâce au différents outils de communication.</p>
+          <h1>Prevost Hugo,<br></br> UX Designer et Développeur</h1>
+          <p>Je m'épanouis dans la réalisation d'audit ainsi que le développement, pour améliorer l'expérience utilisateur lors de la visite d'un site ou d'une application. J'ai à cœur d'amener du sens dans toutes mes réalisations. J'aime collaborer avec toutes les parties prenantes et je suis passionné par l'idée de transmettre des valeurs fortes au travers de mes projets.</p>
         </div>
         <div className='home_presentation_img'>
           <img src={HomeIllustration} alt="Profile Hugo Prevost" />

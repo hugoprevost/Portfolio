@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import '../../utils/style/header.scss'
-import CV from "../../assets/CV-Hugo-Prevost-2023.pdf"
+import CV from "../../assets/CV-Prevost-Hugo.pdf"
 
 
 

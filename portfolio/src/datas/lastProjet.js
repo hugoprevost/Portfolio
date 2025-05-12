@@ -1,8 +1,16 @@
 import coverUx from '../assets/projet-1/cover.jpg'
 import coverAR from '../assets/projet-2/cover.jpg'
 import coverMobidys from '../assets/projet-3/cover.jpg'
+import coverProjet11 from '../assets/projet-11/cover.jpg'
 
 export const lastProjet = [
+	{
+		id: 'projet-11',
+		title: 'Robotics',	
+		subtitle: "Cette application permet de piloter facilement des robots mobiles autonomes (AMR) et des véhicules à guidage automatique (AGV) dans des environnements industriels ou logistiques. L’utilisateur peut lancer des missions prédéfinies, comme le transport de matériel, la livraison de composants ou des tâches d’inspection. L’application offre plusieurs modes de conduite : autonome, téléopéré ou manuel assisté, selon les besoins ...",
+		cover: coverProjet11,
+		category: "UX / UI",
+	},
 	{
 		id: 'projet-1',
 		title: 'Draft',
@@ -17,11 +25,5 @@ export const lastProjet = [
 		cover: coverAR,
 		category: "Développement"
 	},
-	{
-		id: 'projet-3',
-		title: 'Mobidys',
-        subtitle: "Travail réalisé dans le carde de Projet Court en partenariat avec MOBiDYS, sur leur application de lecture pour un public DYS. Le travail s'est matérialisé autour de deux axes, la navigation, la progression dans le document et la réorganisation des fonctionnalitées mais surtout une réorganisation de ces dernières en fonction de leur utilité et utilisation. Un travail sur une nouvelle charte graphique a également été faite.",
-		cover: coverMobidys,
-		category: "3D / AR"
-	}
+	
 ]
